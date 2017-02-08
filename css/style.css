@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+div {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 40%;
+}
+h1 {
+
+}
+nav {
+    justify-content: flex-start;
+    width: 100%;
+}
+aside {
+    width: 30%;
+    align-self: flex-start;
+}
+main {
+    flex-grow: 1;
+    height: 75%;
+    width: auto;
+}
+nav,
+aside,
+main {
+    background-color: lightgrey;
+    padding: 2em;
+    border: 2px solid white;
+}
