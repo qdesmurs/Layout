@@ -5,10 +5,11 @@ body {
     height: 100%;
 }
 div {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     height: 100%;
     width: 40%;
+    margin-right: 5em;
 }
 h1 {
 
@@ -21,10 +22,26 @@ aside {
     width: 30%;
     align-self: flex-start;
 }
+#aside2 {
+    height: 75%;
+}
+#aside3 {
+    order: 2;
+}
+#aside4 {
+    order: 2;
+    height: 75%;
+}
 main {
     flex-grow: 1;
     height: 75%;
     width: auto;
+}
+#main3 {
+    order: 1;
+}
+#main4 {
+    order: 1;
 }
 nav,
 aside,
